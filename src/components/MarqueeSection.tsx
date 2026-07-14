@@ -1,12 +1,13 @@
 ﻿import { useState, useEffect, useCallback } from "react";
 import MagicBento from "./MagicBento";
+import { img } from "../utils";
 
 const allImages = [
-  "/16.jpg", "/18.jpg", "/12.jpg",
-  "/13.jpg", "/17.jpg", "/19.jpg", "/20.jpg",
-  "/21.jpg", "/2.jpg", "/22.jpg", "/3.jpg", "/4.jpg",
-  "/5.jpg", "/6.jpg", "/7.jpg", "/8.jpg", "/9.jpg",
-  "/23.jpg",
+  img("/16.jpg"), img("/18.jpg"), img("/12.jpg"),
+  img("/13.jpg"), img("/17.jpg"), img("/19.jpg"), img("/20.jpg"),
+  img("/21.jpg"), img("/2.jpg"), img("/22.jpg"), img("/3.jpg"), img("/4.jpg"),
+  img("/5.jpg"), img("/6.jpg"), img("/7.jpg"), img("/8.jpg"), img("/9.jpg"),
+  img("/23.jpg"),
 ];
 
 const PER_PAGE = 6;
