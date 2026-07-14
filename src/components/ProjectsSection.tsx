@@ -1,5 +1,6 @@
 ﻿import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { img } from "../utils";
 import LiveProjectButton from "./LiveProjectButton";
 
 const projects = [
@@ -7,25 +8,25 @@ const projects = [
     num: "01",
     name: "Moments",
     category: "Client",
-    col1Img1: "/2.jpg",
-    col1Img2: "/4.jpg",
-    col2Img: "/7.jpg",
+    col1Img1: img("/2.jpg"),
+    col1Img2: img("/4.jpg"),
+    col2Img: img("/7.jpg"),
   },
   {
     num: "02",
     name: "Instant",
     category: "Personal",
-    col1Img1: "/微信图片_20260705033421_239_584.jpg",
-    col1Img2: "/22.jpg",
-    col2Img: "/23.jpg",
+    col1Img1: img("/微信图片_20260705033421_239_584.jpg"),
+    col1Img2: img("/22.jpg"),
+    col2Img: img("/23.jpg"),
   },
   {
     num: "03",
     name: "Characters",
     category: "Client",
-    col1Img1: "/微信图片_20260708235823_2119_584.jpg",
-    col1Img2: "/微信图片_20260708231039_2102_584.jpg",
-    col2Img: "/微信图片_20260710054153_2515_584.jpg",
+    col1Img1: img("/微信图片_20260708235823_2119_584.jpg"),
+    col1Img2: img("/微信图片_20260708231039_2102_584.jpg"),
+    col2Img: img("/微信图片_20260710054153_2515_584.jpg"),
   },
 ];
 
