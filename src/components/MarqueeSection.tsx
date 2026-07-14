@@ -31,7 +31,7 @@ const MarqueeSection = () => {
     return () => clearInterval(timer);
   }, [page, goTo]);
 
-  const padImages = (arr, count) => { const r = [...arr]; while (r.length < count) r.push(r[r.length - 1]); return r; };
+  const padImages = (arr: string[], count: number) => { const r = [...arr]; while (r.length < count) r.push(r[r.length - 1]); return r; };
   const currentImages = padImages(allImages.slice(page * PER_PAGE, (page + 1) * PER_PAGE), PER_PAGE);
   const prevImages = padImages(allImages.slice(prevPage * PER_PAGE, (prevPage + 1) * PER_PAGE), PER_PAGE);
 
