@@ -1,0 +1,60 @@
+- main [ref=f1e3]:
+  - generic [ref=f1e4]:
+    - heading "SKY HOME" [level=1] [ref=f1e6]
+    - paragraph [ref=f1e31]: MOU GUANG WEN ROU YI LOU YU ZHOU XING HE
+    - generic [ref=f1e32]:
+      - img "Jack Portrait"
+  - generic [ref=f1e100]:
+    - heading "About me" [level=2] [ref=f1e102]
+    - paragraph
+  - generic [ref=f1e103]:
+    - heading "Services" [level=2] [ref=f1e105]
+    - generic [ref=f1e106]:
+      - generic [ref=f1e108]:
+        - generic [ref=f1e109]: "01"
+        - generic [ref=f1e110]:
+          - heading "3D Modeling" [level=3] [ref=f1e111]
+          - paragraph [ref=f1e112]: Creation of detailed objects, characters, or environments tailored to specific client needs, ideal for games, products, and visualizations.
+      - generic [ref=f1e114]:
+        - generic [ref=f1e115]: "02"
+        - generic [ref=f1e116]:
+          - heading "Rendering" [level=3] [ref=f1e117]
+          - paragraph [ref=f1e118]: High-quality, photorealistic renders that showcase designs with custom lighting, textures, and materials to bring concepts to life.
+      - generic [ref=f1e120]:
+        - generic [ref=f1e121]: "03"
+        - generic [ref=f1e122]:
+          - heading "Motion Design" [level=3] [ref=f1e123]
+          - paragraph [ref=f1e124]: Dynamic animations and motion graphics that add energy and storytelling to brands, products, and digital experiences.
+      - generic [ref=f1e126]:
+        - generic [ref=f1e127]: "04"
+        - generic [ref=f1e128]:
+          - heading "Branding" [level=3] [ref=f1e129]
+          - paragraph [ref=f1e130]: Crafting cohesive visual identities -- from logos to full brand systems -- that communicate a clear and memorable presence.
+      - generic [ref=f1e132]:
+        - generic [ref=f1e133]: "05"
+        - generic [ref=f1e134]:
+          - heading "Web Design" [level=3] [ref=f1e135]
+          - paragraph [ref=f1e136]: Designing clean, modern, and conversion-focused websites with attention to layout, typography, and user experience.
+  - generic [ref=f1e137]:
+    - heading "Project" [level=2] [ref=f1e138]
+    - generic [ref=f1e141]:
+      - generic [ref=f1e142]:
+        - generic [ref=f1e143]: "01"
+        - generic [ref=f1e144]:
+          - generic [ref=f1e145]: Client
+          - generic [ref=f1e146]: Nextlevel Studio
+      - button "Live Project" [ref=f1e147] [cursor=pointer]
+    - generic [ref=f1e155]:
+      - generic [ref=f1e156]:
+        - generic [ref=f1e157]: "02"
+        - generic [ref=f1e158]:
+          - generic [ref=f1e159]: Personal
+          - generic [ref=f1e160]: Aura Brand Identity
+      - button "Live Project" [ref=f1e161] [cursor=pointer]
+    - generic [ref=f1e169]:
+      - generic [ref=f1e170]:
+        - generic [ref=f1e171]: "03"
+        - generic [ref=f1e172]:
+          - generic [ref=f1e173]: Client
+          - generic [ref=f1e174]: Solaris Digital
+      - button "Live Project" [ref=f1e175] [cursor=pointer]
